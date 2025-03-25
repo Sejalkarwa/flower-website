@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Complete responsive flower website design tutorial</title>
+  <link rel="stylesheet" href="Style.css">
+  <!-- font awesome cdn link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- header section start -->
+  <header>
+    <!-- input -->
+    <input type="checkbox" name="" id="toggler">
+    <label for="toggler" class="fa fa-bars"></label>
+
+    <a href="#" class="logo">Bouquet<span>&#128144;</span></a>
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#product">Products</a>
+      <a href="#review">Review</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="icons">
+      <a href="#" class="fas fa-heart"></a>
+      <a href="#" class="fa-solid fa-cart-shopping"></a>
+      <!-- /* <a href="#" class="fa-solid fa-user"></a> */ -->
+      <a href="#login-modal" class="fa-solid fa-user"></a>
+    </div>
+  </header>
+  <!-- header section end -->
+
+  <!-- home section starts -->
+  <section class="home" id="home">
+    <div class="content">
+      <h3>Fresh Flowers</h3>
+      <span>Natural & Beautiful Flowers</span>
+      <p>Bring home the vibrant charm of nature with our handpicked, fresh-cut flowers. Whether you're celebrating a special moment or simply brightening up your space, our exquisite floral arrangements add a touch of elegance and warmth.
+         Discover the perfect bouquet for birthdays, anniversaries, weddings, or just because! 🌺💐</p>
+        <a href="index.html#product" class="btn">Shop Now</a>
+
+
+
+    </div>
+  </section>
+  <!-- home section end -->
+   <!-- Profile Icon with Login Modal -->
+<a href="#login-modal" class="fa-solid fa-user"></a>
+
+<!-- Login Modal -->
+<div id="login-modal" class="modal">
+  <div class="login-container">
+      <a href="#" class="close-btn">&times;</a>
+      <h2>Login</h2>
+      <form action="#" method="POST">
+          <input type="text" placeholder="Username" class="login-input" required>
+          <input type="password" placeholder="Password" class="login-input" required>
+          <button type="submit" class="btn">Login</button>
+      </form>
+      <p>Don't have an account? <a href="#signup-modal" class="modal-link">Sign Up</a></p>
+  </div>
+</div>
+
+<!-- Sign-Up Modal -->
+<div id="signup-modal" class="modal">
+  <div class="login-container">
+      <a href="#" class="close-btn">&times;</a>
+      <h2>Sign Up</h2>
+      <form action="#" method="POST">
+          <input type="text" placeholder="Full Name" class="login-input" required>
+          <input type="email" placeholder="Email" class="login-input" required>
+          <input type="password" placeholder="Create Password" class="login-input" required>
+          <input type="password" placeholder="Confirm Password" class="login-input" required>
+          <button type="submit" class="btn">Sign Up</button>
+      </form>
+      <p>Already have an account? <a href="#login-modal" class="modal-link">Login</a></p>
+  </div>
+</div>
+
+
+
+  <!-- about section start -->
+  <section class="about" id="about">
+    <h1 class="heading"><span>about </span>us</h1>
+
+    <div class="row">
+      <!-- video -->
+      <div class="video_container">
+        <video src="video.mp4" loop autoplay muted></video>
+        <h3>best flower sellers</h3>
+      </div>
+
+      <!-- content -->
+      <div class="content">
+        <h3>why choose us?</h3>
+        <p>🌿 Fresh & Handpicked Flowers: We source our flowers directly from the best farms, ensuring long-lasting freshness and vibrant colors.</p>
+        <p>🚚 Same-Day & Midnight Delivery: Surprise your loved ones with our express delivery services, available in major cities across India.</p>
+        <p>🎨 Customized Bouquets: Whether it's a romantic bouquet or a festive floral arrangement, we offer personalized designs to suit your needs.</p>
+        <p>💖 100% Customer Satisfaction: Our expert florists craft each bouquet with love and care, making sure you receive only the best.</p>
+        <p>🌍 Eco-Friendly Packaging: We use biodegradable and sustainable packaging to protect nature while delivering happiness.</p>
+        <a href="#" class="btn">learn more</a>
+      </div>
+    </div>
+
+  </section>
+  <!-- about section end -->
+
+  <!-- /* icons section start */ -->
+  <section class="icons_container">
+    <!-- icons-1 -->
+    <div class="icons">
+      <i class="fa-solid fa-cart-shopping"></i>
+      <div class="info">
+        <h3>free delivery</h3>
+        <span>on all orders</span>
+      </div>
+    </div>
+
+    <!-- icons-2 -->
+    <div class="icons">
+      <i class="fa-solid fa-sack-dollar"></i>
+      <div class="info">
+        <h3>14 days returns</h3>
+        <span>moneyback garantee</span>
+      </div>
+    </div>
+
+    <!-- icons-3 -->
+    <div class="icons">
+      <i class="fa-solid fa-gift"></i>
+      <div class="info">
+        <h3>offer & gifts</h3>
+        <span>on all orders</span>
+      </div>
+    </div>
+
+    <!-- icons-4 -->
+    <div class="icons">
+      <i class="fa-solid fa-money-check-dollar"></i>
+      <div class="info">
+        <h3>secure payment</h3>
+        <span>protected by paypal</span>
+      </div>
+    </div>
+
+
+
+  </section>
+  <!-- icons section end -->
+
+  <!-- product section start -->
+  <section class="products" id="product">
+    <h1 class="heading">latest <span>products</span></h1>
+    <!-- products -->
+    <div class="card_container">
+      <!-- card-1 -->
+      <div class="card">
+        <span class="discount">-20%</span>
+        <div class="card_img">
+          <img src="img1.webp">
+          <div class="icons">
+            <a href="#" class="fa-solid fa-heart"></a>
+            <a href="#" class="card_btn">add to cart</a>
+            <a href="#" class="fa-solid fa-share"></a>
+          </div>
+        </div>
+        <div class="content">
+          <h3>White Lily & Red Rose Bouquet</h3>
+          <div class="price">Rs.1237 <span>Rs.1547</span></div>
+        </div>
+      </div>
+      <!-- card-2 -->
+      <div class="card">
+        <span class="discount">-10%</span>
+        <div class="card_img">
+          <img src="img2.webp">
+          <div class="icons">
+            <a href="#" class="fa-solid fa-heart"></a>
+            <a href="#" class="card_btn">add to cart</a>
+            <a href="#" class="fa-solid fa-share"></a>
+          </div>
+        </div>
+        <div class="content">
+          <h3>Pink Lily Bouquet</h3>
+          <div class="price">Rs.1119<span> Rs.1499</span></div>
+        </div>
+      </div>
+      <!-- card-3 -->
+      <div class="card">
+        <span class="discount">-15%</span>
+        <div class="card_img">
+          <img src="img3.webp">
+          <div class="icons">
+            <a href="#" class="fa-solid fa-heart"></a>
+            <a href="#" class="card_btn">add to cart</a>
+            <a href="#" class="fa-solid fa-share"></a>
+          </div>
+        </div>
+        <div class="content">
+          <h3>Red Rose Basket</h3>
+          <div class="price">Rs.499 <span>Rs.749</span></div>
+        </div>
+      </div>
+      <!-- card-4 -->
+      <div class="card">
+        <span class="discount">-10%</span>
+        <div class="card_img">
+          <img src="img4.webp">
+          <div class="icons">
+            <a href="#" class="fa-solid fa-heart"></a>
+            <a href="#" class="card_btn">add to cart</a>
+            <a href="#" class="fa-solid fa-share"></a>
+          </div>
+        </div>
+        <div class="content">
+          <h3>White Rose Vase </h3>
+          <div class="price">Rs.549 <span>Rs.699</span></div>
+        </div>
+      </div>
+      <!-- card-5 -->
+      <div class="card">
+        <span class="discount">-18%</span>
+        <div class="card_img">
+          <img src="img5.avif">
+          <div class="icons">
+            <a href="#" class="fa-solid fa-heart"></a>
+            <a href="#" class="card_btn">add to cart</a>
+            <a href="#" class="fa-solid fa-share"></a>
+          </div>
+        </div>
+        <div class="content">
+          <h3>Yellow Gerbera</h3>
+          <div class="price">Rs.1099 <span>Rs.1249</span></div>
+        </div>
+      </div>
+      <!-- card-6 -->
+      <div class="card">
+        <span class="discount">-12%</span>
+        <div class="card_img">
+          <img src="img6.jpg">
+          <div class="icons">
+            <a href="#" class="fa-solid fa-heart"></a>
+            <a href="#" class="card_btn">add to cart</a>
+            <a href="#" class="fa-solid fa-share"></a>
+          </div>
+        </div>
+        <div class="content">
+          <h3>Pink Lily Vase </h3>
+          <div class="price">Rs.899 <span> Rs.999</span></div>
+        </div>
+      </div>
+      <!-- card-7 -->
+      <div class="card">
+        <span class="discount">-8%</span>
+        <div class="card_img">
+          <img src="img7.webp">
+          <div class="icons">
+            <a href="#" class="fa-solid fa-heart"></a>
+            <a href="#" class="card_btn">add to cart</a>
+            <a href="#" class="fa-solid fa-share"></a>
+          </div>
+        </div>
+        <div class="content">
+          <h3>Orange Lily</h3>
+          <div class="price">Rs.1029<span> Rs.1399</span></div>
+        </div>
+      </div>
+      <!-- card-8 -->
+      <div class="card">
+        <span class="discount">-19%</span>
+        <div class="card_img">
+          <img src="img8.avif">
+          <div class="icons">
+            <a href="#" class="fa-solid fa-heart"></a>
+            <a href="#" class="card_btn">add to cart</a>
+            <a href="#" class="fa-solid fa-share"></a>
+          </div>
+        </div>
+        <div class="content">
+          <h3>Yellow Lily Bouquet </h3>
+          <div class="price">Rs.1499<span> Rs.1750</span></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- product section end -->
+
+  <!-- review section start -->
+  <section class="review" id="review">
+    <h1 class="heading">customer's <span>review</span></h1>
+
+    <div class="card_container">
+      <!-- customer-1 -->
+      <div class="card">
+        <div class="stars">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <p>"Absolutely love the fresh flowers from this shop! The roses lasted for over a week, and the fragrance was amazing. Highly recommended!"</p>
+        <div class="user">
+          <img src="M4.jpeg">
+          <div class="user_info">
+            <h3>Ram</h3>
+            <span>happy customer</span>
+          </div>
+        </div>
+        <i class="fa-solid fa-quote-right"></i>
+      </div>
+
+      <!-- customer-2 -->
+      <div class="card">
+        <div class="stars">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <p>“Excellent service! I ordered a custom bouquet, and it was crafted just the way I imagined. The roses lasted for over a week!”</p>
+        <div class="user">
+          <img src="pic2.webp">
+          <div class="user_info">
+            <h3>Shardul</h3>
+            <span>happy customer</span>
+          </div>
+        </div>
+        <i class="fa-solid fa-quote-right"></i>
+      </div>
+    <!-- customer-3 -->
+    <div class="card">
+      <div class="stars">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+      </div>
+      <p>“Absolutely stunning flowers! I ordered a bouquet for my anniversary, and the freshness and fragrance were beyond expectations. Highly recommended!”</p>
+      <div class="user">
+        <img src="M2.jpeg">
+        <div class="user_info">
+          <h3>Zara</h3>
+          <span>happy customer</span>
+        </div>
+      </div>
+      <i class="fa-solid fa-quote-right"></i>
+    </div>
+
+ </div>
+
+  </section>
+  <!-- review section end -->
+  <!-- My Orders Section -->
+<section id="my-orders" class="responsive-section">
+  <h1 class="heading">My <span>Orders</span></h1>
+  <div class="order-container">
+      <div class="order-card">
+          <img src="img1.webp" alt="Order 1">
+          <div class="order-info">
+              <h3>Red Rose Bouquet</h3>
+              <p>Order Status: <span class="status">Shipped</span></p>
+              <p>Expected Delivery: 2-3 Days</p>
+          </div>
+      </div>
+      <div class="order-card">
+          <img src="img2.webp" alt="Order 2">
+          <div class="order-info">
+              <h3>White Lily Vase</h3>
+              <p>Order Status: <span class="status">Processing</span></p>
+              <p>Expected Delivery: 4-5 Days</p>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- My Liked Items Section -->
+<section id="my-liked" class="responsive-section">
+  <h1 class="heading">My <span>Liked Items</span></h1>
+  <div class="liked-container">
+      <div class="liked-card">
+          <img src="img3.webp" alt="Liked 1">
+          <h3>Pink Lily Bouquet</h3>
+          <button class="btn">Remove</button>
+      </div>
+      <div class="liked-card">
+          <img src="img4.webp" alt="Liked 2">
+          <h3>Sunflower Basket</h3>
+          <button class="btn">Remove</button>
+      </div>
+  </div>
+</section>
+
+  <!-- contact section start -->
+  <section class="contact" id="contact">
+
+    <h1 class="heading"><span> contact</span> us</h1>
+
+    <div class="row">
+
+      <form action="">
+        <input type="text" placeholder="name" class="card">
+        <input type="email" placeholder="email" class="card">
+        <input type="number" placeholder="number" class="card">
+        <textarea name="" class="card" placeholder="message" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="send message" class="btn">
+      </form>
+      <div class="image">
+        <img src="contact_img1.jpeg">
+      </div>
+    </div>
+  </section>
+  <!-- contact section end -->
+
+  <!-- footer section start -->
+  <section class="footer">
+    <div class="card_container">
+      <!-- quick links -->
+      <div class="card">
+        <h3>quick links</h3>
+        <a href="#">home</a>
+        <a href="#">about</a>
+        <a href="#">products</a>
+        <a href="#">review</a>
+        <a href="#">contact</a>
+      </div>
+     <!-- extra links -->
+      <!-- Extra Links Section in Footer -->
+<div class="card">
+  <h3>Extra Links</h3>
+  <a href="#">my account</a>
+  <a href="#my-orders">My Orders</a>
+  <a href="#my-liked">My Favourite Items</a>
+</div>
+
+         <!-- locations -->
+         <div class="card">
+          <h3>locations</h3>
+          <a href="#">Pune</a>
+          <a href="#">Mumbai</a>
+          <a href="#">Nagpur</a>
+          <a href="#">Banglore</a>
+        </div>
+         <!-- contact information -->
+         <div class="card">
+          <h3>contact info</h3>
+          <a href="#">+91-9373463005</a>
+          <a href="#">sejalbougqet@gmail.com</a>
+          <a href="#">Pune, India - 411045</a>
+         <img src="payment_img.jpg">
+        </div>
+    </div> </section>
+    <!-- Payment Section (Hidden by Default) -->
+<section id="payment-section">
+  <h1 class="heading">Secure <span>Payment</span></h1>
+
+  <!-- Clickable Payment Image -->
+  <a href="#payment-box">
+      <img src="payment_photo.webp" alt="Click to Pay" class="payment-photo">
+  </a>
+
+  <!-- Payment Form (Hidden Initially) -->
+  <div id="payment-box" class="payment-container">
+      <div class="payment-box">
+          <a href="#" class="close-btn">&times;</a>
+          <form action="#">
+              <div class="input-group">
+                  <label for="card-name">Cardholder Name</label>
+                  <input type="text" id="card-name" placeholder="John Doe" required>
+              </div>
+
+              <div class="input-group">
+                  <label for="card-number">Card Number</label>
+                  <input type="text" id="card-number" placeholder="1234 5678 9101 1121" maxlength="19" required>
+              </div>
+
+              <div class="row">
+                  <div class="input-group">
+                      <label for="expiry-date">Expiry Date</label>
+                      <input type="month" id="expiry-date" required>
+                  </div>
+
+                  <div class="input-group">
+                      <label for="cvv">CVV</label>
+                      <input type="text" id="cvv" placeholder="123" maxlength="3" required>
+                  </div>
+              </div>
+
+              <div class="input-group">
+                  <label for="payment-method">Select Payment Method</label>
+                  <select id="payment-method" required>
+                      <option value="credit-card">Credit Card</option>
+                      <option value="debit-card">Debit Card</option>
+                      <option value="net-banking">Net Banking</option>
+                      <option value="upi">UPI</option>
+                      <option value="cod">Cash on Delivery</option>
+                  </select>
+              </div>
+
+              <div class="input-group">
+                  <label for="billing-address">Billing Address</label>
+                  <textarea id="billing-address" placeholder="Enter your address" rows="3" required></textarea>
+              </div>
+
+              <button type="submit" class="btn">Pay Now</button>
+          </form>
+      </div>
+  </div>
+</section>
+
+  
+  <!-- footer section end -->
+
+</body>
+
+</html>
